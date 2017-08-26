@@ -1,0 +1,6 @@
+body {background-color: grey;}
+h1{font-family: ubuntu;}
+p{color: yellow;}
+p{border: 2px solid black;}
+#ultimop{background-color: green; font-size:30px;}
+.special {border: 10px dotted red;}
