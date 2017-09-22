@@ -1,0 +1,26 @@
+body {
+background-color: #C0C0C0;
+}
+h1 {
+color: ;
+}
+p {
+color: ;
+}
+
+.incrivel {color:}
+
+# {color: red;}
+
+* { margin: 0; padding: 0; }
+
+
+
+{
+color: red; /* cor do texto */
+font-family: verdana; /* nome da fonte */
+font-size: 16px; /* tamanho da fonte */
+border: 2px solid black; /* estilo da borda */
+padding: 20px; /* espaço entre a borda e o texto*/
+marging: 50px; /* define a margem */
+}
