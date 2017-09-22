@@ -1,0 +1,22 @@
+body {
+background-color: gray;
+}
+p {
+font-family: arial;
+font-size: 25px;
+}
+h1 {
+font-family: verdana; 
+color: blue;
+border: 5px solid;
+}
+
+h2 {
+font-family: verdana; 
+color: red;
+border: 2px solid #8B4500;
+}
+h3 {
+font-family: verdana; 
+color: #D2691E;
+}
