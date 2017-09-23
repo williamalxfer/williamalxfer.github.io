@@ -3,7 +3,15 @@ background-color: gray;
 }
 p {
 font-family: arial;
-font-size: 25px;
+font-size: 20px;
+}
+a {
+color: yellow;
+text-decoration: none;
+}
+a: hover {
+color: #ff6600;
+text-decoration: underline;
 }
 h1 {
 font-family: verdana; 
