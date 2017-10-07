@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title> Pedido Online </title>
+		<meta charset utf-8>
+	</head>
+
+	<body>
+		<h1> FAÇA SEU PEDIDO </h1>
+		<h2> Preencha o formurio abaixo e clique em "Enviar Pedido" para solicitar uma caixa com grãos personalizados </h2>
+
+		<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
+			<p> Escolha a variedade dos Grãos: </p> 
+				<select name="grãos de café">
+					<option name="GRAO" value="Colombia" name=""> Grãos da Colombia </option>
+					<option name="GRAO" value="Gourmet"> Grão Gourmet </option>
+					<option name="GRAO" value="Bourboun"> Grão Bourboun </option>
+					<option name="GRAO" value="Robusta"> Grãos da Colombia </option>
+				</select>
+
+			<p> TIPO: </p>
+				<input type="radio" name="TIPO" value="Inteiros"> Grãos Inteiros <br>
+				<input type="radio" name="TIPO" value="Moidos"> Grãos Moidos <br>
+
+			<p> Extras </p>
+				<input type="checkbox" name="Extra" value="Embalagem"> Embalar para presentes <br>
+				<input type="checkbox" name="Extra" value="Catalogo"> Quero um catálogo com café especiais <br>
+
+			<p> Enviar para: </p>
+				Nome: <input type="text" name="Nome"> <br>
+				Endereço: <input type="text" name="Endereço"> <br>
+				Cidade: <input type="text" name="Cidade"> <br>
+				Estado: <select>
+							<option>Selecione...</option>
+							<option name="GRAO" value="Colombia" name=""> Grãos da Colombia </option>
+							<option name="GRAO" value="Gourmet"> Grão Gourmet </option>
+							<option name="GRAO" value="Bourboun"> Grão Bourboun </option>
+							<option name="GRAO" value="Robusta"> Grãos da Colombia </option>
+						</select>
+			<br><br>
+
+			<input type="submit" value="Enviar Pedido">
+
+
+	<body>
+
+	</body>
+</html>
