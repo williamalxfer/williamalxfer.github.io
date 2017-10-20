@@ -16,7 +16,7 @@ text-decoration: underline;
 h1 {
 font-family: verdana; 
 color: blue;
-border: 5px solid;
+border: 5px solid blue;
 }
 
 h2 {
@@ -27,4 +27,28 @@ border: 2px solid #8B4500;
 h3 {
 font-family: verdana; 
 color: #D2691E;
+}
+
+
+.pedidoD {
+	background-color: #C0C0C0;
+}
+
+.formheader {
+	text-align: left;
+	color: brown;
+}
+
+.formlabel {
+	text-align: right;
+	vertical-align: top;
+	padding: 8px;
+}
+
+.formfield {
+	text-align: left;
+}
+
+.formtable {
+	border: 1px solid black;
 }
