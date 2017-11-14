@@ -310,3 +310,14 @@
 .items-5 .item:nth-of-type(5) {
   animation-delay: 26s;
 }
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+a img 
+{ 
+border: none; 
+}

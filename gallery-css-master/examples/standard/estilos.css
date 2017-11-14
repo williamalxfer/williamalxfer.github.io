@@ -1,5 +1,5 @@
 body {
-background-color: #C0C0C0;
+background-color: white;
 }
 h1 {
 color: ;
@@ -8,11 +8,85 @@ p {
 color: ;
 }
 
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
 .incrivel {color:}
 
 # {color: red;}
 
 * { margin: 0; padding: 0; }
+
+.corpo {
+	width: 1200px;
+	margin: auto;
+}
+
+.conteudo {
+	display: table;
+}
+
+.imagem {
+	display: table-cell;
+	float: left;
+}
+
+.imagem2 {
+	display: table-cell;
+	float: right;
+	margin-left: 20px;
+}
+
+.imagem3 {
+	display: table-cell;
+	float: left;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+
+.texto {
+	display: table-cell;
+	float: left;
+	width: 500px;
+	margin-left: 30px;
+	font-family: Abel;
+	font-size: 15px;
+}
+
+.texto2 {
+	display: table-cell;
+	float: left;
+	width: 600px;
+	margin-top: 40px;
+	margin-left: 10px;
+	font-family: Abel;
+	font-size: 15px;
+}
+
+.texto3 {
+	display: table-cell;
+	float: left;
+	width: 400px;
+	margin-top: 90px;
+	margin-left: 10px;
+	font-family: Abel;
+	font-size: 30px;
+}
+
+.galeria {
+	background-color: #666666;
+}
+
+.cobertura {
+	background-color: #32CD99;
+}
+
+.conosco {
+	background-color: #C0C0C0;
+}
 
 
 
