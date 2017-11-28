@@ -1,0 +1,119 @@
+body {
+background-color: white;
+}
+h1 {
+color: ;
+}
+p {
+color: ;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.incrivel {color:}
+
+# {color: red;}
+
+* { margin: 0; padding: 0; }
+
+.corpo {
+	width: 1200px;
+	margin: auto;
+}
+
+.conteudo {
+	display: table;
+}
+
+.imagem {
+	display: table-cell;
+	float: left;
+}
+
+.imagem2 {
+	display: table-cell;
+	float: right;
+	margin-left: 20px;
+}
+
+.imagem3 {
+	display: table-cell;
+	float: left;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+
+.texto {
+	display: table-cell;
+	float: left;
+	width: 700px;
+	margin-left: 30px;
+	font-family: Abel;
+	font-size: 15px;
+}
+
+#missão {
+	display: table-cell;
+	float: left;
+	width: 300px;
+	margin-left: 30px;
+	font-family: Abel;
+	font-size: 15px;
+}
+
+#empresa {
+	
+}
+
+.texto2 {
+	display: table-cell;
+	float: left;
+	width: 600px;
+	margin-top: 40px;
+	margin-left: 10px;
+	font-family: Abel;
+	font-size: 15px;
+}
+
+.texto3 {
+	display: table-cell;
+	float: left;
+	width: 400px;
+	margin-top: 90px;
+	margin-left: 10px;
+	font-family: Abel;
+	font-size: 30px;
+}
+
+.galeria {
+	background-color: #666666;
+}
+
+.cobertura {
+	background-color: #32CD99;
+}
+
+.conosco {
+	background-color: #C0C0C0;
+}
+
+#empresa {
+	background: #00CC00;
+	color: #FFF;
+	padding: 20px
+}
+
+
+
+{
+color: red; /* cor do texto */
+font-family: verdana; /* nome da fonte */
+font-size: 16px; /* tamanho da fonte */
+border: 2px solid black; /* estilo da borda */
+padding: 20px; /* espaço entre a borda e o texto*/
+marging: 50px; /* define a margem */
+}
