@@ -1,48 +1,136 @@
+
 <html>
 
     <head>
     	<meta charset="UTF-8">
         <title> PPI 2º Semestre </title>
+		<!-- meta tags necess&#195;&#161;rias para codifica&#195;&#167;&#195;&#163;o e layout responsivo para dispositivos m&#195;&#179;veis -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<!-- Bibliotecas JavaScript que devem ser inclu&#195;&#173;das nessa ordem: jQuery.js, Popper.js e Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="estilos.css">
     <head>
 
-    <body>
+   <body>
     	<center>
-    		<h1> Aplicativo de compartilhamento de informações sobre trajetos para deficientes visuais </h1>
-    		<p> Autores: William Alexandre Ferreira e Edson Elias Cazarotto </p>
+    		<h1 id="topo"><b> Aplicativo de compartilhamento de informações sobre trajetos para deficientes visuais </b></h1>
+    		<p><b> AUTORES: William Alexandre Ferreira e Edson Elias Cazarotto </b></p>
     	</center>
-
+		
+		<nav class="navbar navbar-expand-lg navbar-justify-content-center bg-light">
+			<a class="navbar-brand" href="http://www.iffarroupilha.edu.br/" target="_blank"> Instituto Federal Farroupilha </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link active" href="#resumo"> Resumo <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="#introducao"> Introdução </a>
+					<a class="nav-item nav-link" href="#objetivos"> Objetivos </a>
+					<a class="nav-item nav-link" href="#metodologia"> Metodologia </a>
+					<a class="nav-item nav-link" href="#pros"> Resultados Esperados </a>
+					<a class="nav-item nav-link" href="#contras"> Riscos </a>
+					<a class="nav-item nav-link disabled" href="#"> PPI 2º Semestre</a>
+				</div>
+			</div>
+		</nav>
+		
     	<br><br>
-
-    		<h3> RESUMO </h3>
-    		<p> O aplicativo estudado tem como principal objetivo auxiliar deficientes visuais a locomover-se até locais que os proprios s usuarios frequentam seguidamente, utilizando como principal ferramenta um aparelho de celular, por meio de comunicação por audio, o aplicativo informa ao usuario os obstaculos encontrados ate seu destino  em tempo real, compartihando informações do tempo. Essas informações são compartilhadas por qualquer usuario que passe pelo local, o mesmo publica um formulario em uma pagina WEB interligada ao APP ajudando de maneira colaborativa. O aplictivo tem como base de dados a geolocalização do google maps, bem como o o street view. Essa aplicação é um sistema interligado a WEB e necessita de conexão frequente com a internet para funcionar. </p><br>
-
-    		<h3> INTRODUÇÃO: </h3>
-    		<p>  O Aplicativo pensado até o momento é um sistema interligado a uma página web, e utiliza informações geolocalizadas e GPS, sendo alimentado por
-    		informações de qualquer usuário de rede, de maneira colaborativa. Qualquer um que possua o aplicativo pode enviar e receber informações sobre determinadas
-    		localidades e obstaculos que há nas proximidades, que são transmitidas na forma de aúdio. </p><br>
-
-    		<h3> OBJETIVOS </h3>
-    		<h4> Geral: </h4>
+		
+		<div class="resumo">
+    		<h3 id="resumo"> RESUMO </h3>
+			<p align="justify"> 
+				O aplicativo estudado tem como principal objetivo auxiliar deficientes visuais a locomover-se até locais que os próprios  usuários frequentem seguidamente, utilizando 
+				como principal ferramenta um aparelho de celular, por meio de comunicação por audio, o aplicativo informa ao usuário os obstáculos encontrados até seu destino  em tempo
+				real, compartihando informações do tempo. Essas informações são compartilhadas por qualquer usuário que passe pelo local, o mesmo pública um formulário em uma página WEB
+				interligada ao APP ajudando de maneira colaborativa. O aplictivo tem como base de dados a geolocalização do google maps, bem como o o street view. Essa aplicação é um
+				sistema interligado a WEB e necessita de conexão frequente com a internet para funcionar. 
+			</p>
+			<a href="#topo"> Inicio </a> || <a href="#introducao"> Próximo </a>
+		</div>
+		<div class="imagem">
+			<img src="imgresumo.jpg" width="650" height="450"/>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
+		<div class="imagem1">
+			<img src="imgintroducao.jpg" width="650" height="300"/>
+		</div>
+		<div class="introdução">
+    		<h3 id="introducao"> INTRODUÇÃO: </h3>
+			<p align="justify">
+    		<p>  
+				O Aplicativo pensado até o momento é um sistema interligado a uma página web, e utiliza informações geolocalizadas e GPS, sendo alimentado por
+				informações de qualquer usuário de rede, de maneira colaborativa. Qualquer um que possua o aplicativo pode enviar e receber informações sobre determinadas
+				localidades e obstaculos que há nas proximidades, que são transmitidas na forma de aúdio. 
+			</p>
+			<a href="#topo"> Inicio </a> || <a href="#resumo"> Voltar </a> || <a href="#objetivos"> Próximo </a>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
+		
+		<div class="objetivos">
+    		<h3 id="objetivos"> OBJETIVOS </h3>
+			<p align="justify">
+    		<h4><b> Geral: </b></h4>
     		<p> * Auxiliar o deficiente visual a se locomover de maneira mais rápida através da colaboração do próximo e a tecnologia. </p>
-    		<h4> Específico: </h4> 
+    		<h4><b> Específico: </b></h4> 
     		<p> &emsp;	&emsp; - Conscientizar aos usuários e telespectadores sobre o uso de informações corretas </p>
     		<p> &emsp;	&emsp; - Incentivar as ajudas espontâneas e colaborativas </p>
-    		<p> &emsp;	&emsp; - Mostrar a importância da inclusão digital no meio dos portadores de deficiência física </p><br>
+    		<p> &emsp;	&emsp; - Mostrar a importância da inclusão digital no meio dos portadores de deficiência física </p>
+		</div>
+		<div class="imagem2">
+			<img src="imgobjetivo.jpg"/><br><br>
+			<a href="#topo"> Inicio </a> || <a href="#introducao"> Voltar </a> || <a href="#metodologia"> Próximo </a>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-    		<h3> METODOLOGIA </h3>
-    		<p>  </p><br>
-
-    		<h3> RESULTADOS ESPERADOS </h3>
-    		<p>  </p><br>
-
-    		<h3> RISCOS ESPERADOS </h3>
-    		<p>  </p><br>
-
-
-
-
-
+		<div class="metodologia">
+    		<h3 id="metodologia"> METODOLOGIA </h3>
+			<p align="justify">
+				O Projeto será realizado com a ajuda de buscas em materiais bibliográficos disponíveis na internet, bem como videos e artigos do mesmo. A línguage pretendida para elaboração
+				do projeto será JavaScript, composto pela línguagem de marcação HTML e de estilização CSS/Bootstrap. 
+    		</p>
+			<a href="#topo"> Inicio </a> || <a href="#objetivos"> Voltar </a> || <a href="#pros"> Próximo </a>
+		</div>
+		<div class="imagem3">
+			<img src="imgmetodologia.png" width="650"/>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
+		<div class="imagem4">
+			<img src="impros1.png" height="200"/>
+		</div>
+		<div class="pros">
+    		<h3 id="pros"> RESULTADOS ESPERADOS </h3>
+			<p align="justify">
+				Espera-se do aplicativo em primeiro lugar, um bom funcionamento de sua interface, que precisa ser capaz de possibilitar a locomoção de deficientes visuais apenas com o seu único auxilio.
+				Boa comunicação entre usuário-app.
+    		</p>
+			<a href="#topo"> Inicio </a> || <a href="#metodologia"> Voltar </a> || <a href="#contras"> Próximo </a>
+		</div>
+		
+		<div class="imagem4">
+			<img src="contras.png" height="200"/>
+		</div>
+		<div class="pros">
+    		<h3 id="contras"> RISCOS ESPERADOS </h3>
+			<p align="justify">
+				O aplicativo como qualquer outro conectado a rede, tem, por mais que seja minima, a chance de ser invadido por hackers.
+				Por ter a opção de informar o usuario necessitado, adicionando e informando obstáculos na cidade, o informante pode ter má conduta e repassar informação incorreta, tornando o trajeto bem mais 
+				longo e incorreto. Como qualquer outro aplicativo podem ocorrer bugs inesperados.
+				Nessecita de atualizações permanentes.
+				Para o funcionamentro correto, a aplicação precisa de conexão regular com a internet. 
+			</p>
+			<a href="#pros"> Voltar </a> || <a href="#topo"> Ir para o topo </a><br><br>
+		</div>
 
     </body>
+
 
 </html>

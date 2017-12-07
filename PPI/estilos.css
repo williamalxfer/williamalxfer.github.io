@@ -1,0 +1,99 @@
+body {
+background-color: #EAEAAE;
+}
+
+h1 {
+color: #A62A2A;
+}
+
+h3 {
+	color: #8C1717;
+}
+
+p {
+color: ;
+}
+
+#topo {
+	display: table-cell;
+	float: right
+}
+
+.resumo {
+	display: table-cell;
+	float: left;
+	width: 500px;
+	margin-left: 40px;
+	font-family: Abel;
+	font-size: 18px;
+}
+.imagem {
+	display: table-cell;
+	float: right;
+	margin-right: 80px
+}
+
+.introdução {
+	display: table-cell;
+	float: left;
+	width: 500px;
+	margin-left: 40px;
+	font-family: Abel;
+	font-size: 18px;
+}
+.imagem1 {
+	display: table-cell;
+	float: left;
+	margin-left: 40px
+}
+
+.objetivos {
+	display: table-cell;
+	float: left;
+	width: 900px;
+	margin-left: 40px;
+	font-family: Abel;
+	font-size: 18px;
+}
+.imagem2 {
+	display: table-cell;
+	float: left;
+	margin-left: 40px
+}
+
+.metodologia {
+	display: table-cell;
+	float: left;
+	width: 500px;
+	margin-left: 30px;
+	font-family: Abel;
+	font-size: 18px;
+}
+.imagem3 {
+	display: table-cell;
+	float: left;
+	margin-left: 40px
+}
+
+.pros {
+	display: table-cell;
+	float: left;
+	width: 400px;
+	margin-left: 30px;
+	font-family: Abel;
+	font-size: 18px;
+}
+.imagem4 {
+	display: table-cell;
+	float: left;
+	margin-left: 40px
+}
+
+.contras {
+	display: table-cell;
+	float: left;
+	width: 500px;
+	margin-left: 30px;
+	font-family: Abel;
+	font-size: 18px;
+}
