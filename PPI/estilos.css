@@ -19,6 +19,12 @@ color: ;
 	float: right
 }
 
+.logotipo {
+	display: table-cell;
+	float: left;
+	margin-left: 50px
+}
+
 .resumo {
 	display: table-cell;
 	float: left;
