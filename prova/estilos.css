@@ -1,0 +1,44 @@
+.texto1 {
+	display: table-cell;
+	float: left;
+	width: 500px;
+	margin-top: 30px;
+	margin-left: 30px;
+	font-family: Abel;
+	font-size: 15px;
+}
+
+.texto2 {
+	display: table-cell;
+	float: right;
+	width: 500px;
+	margin-top: 30px;
+	margin-right: 30px;
+	font-family: Abel;
+	font-size: 15px;
+}
+
+.texto3 {
+	display: table-cell;
+	margin-top: 30px;
+	font-family: Abel;
+	font-size: 13px;
+}
+
+.contato {
+	border-radius: 4px;
+}
+
+td, th {
+border: 1px solid #dddddd;
+padding: 15px; /* Espaço ao redor das células */
+}
+
+.tabela {
+	display: table-cell;
+	float: right;
+	margin-top: 30px;
+	margin-right: 30px;
+	font-family: Abel;
+	font-size: 15px;
+}
