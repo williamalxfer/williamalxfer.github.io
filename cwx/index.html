@@ -35,7 +35,7 @@
 					  Planos e Produtos
 					</a>
 			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				<a class="dropdown-item" href="#">Residencial</a>
+				<a class="dropdown-item" href="#pep">Residencial</a>
 				<a class="dropdown-item" href="#">Empresarial</a>
 				<a class="dropdown-item" href="#">Fibra Óptica</a>
 			<div class="dropdown-divider"></div>
@@ -96,69 +96,90 @@
 				<span class="sr-only">Next</span>
 				</a>
 			</div>	
-			
-		
 		
 		<center><h1 id="empresa"> EMPRESA </h1></center>
 		<div class="container">
+		
+			<!-- Nav tabs -->
 			<ul class="nav nav-tabs" id="myTab" role="tablist">
 			  <li class="nav-item">
-				<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> Sobre Nós</a>
-			 </li>
+				<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> Sobre Nós </a>
+			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"> Missão </a>
-			 </li>
-			  <li class="nav-item">
-				<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"> Visão </a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"> Valores </a>
+				<a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false"> Visão </a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false"> Valores </a>
 			  </li>
 			</ul>
-			<div class="tab-content" id="myTabContent">
-			  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> 
-				<div class="imagem">
+
+			<!-- Tab panes -->
+			<div class="tab-content">
+			  <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
 				<img src="empresa-imagens/qmsomos.jpg" height="320px">
-				</div>
 				<div class="texto">
 				<p align="justify"> 
 					A Computer's World, ou mais conhecida como CWX Telecom é um provedor de acesso a internet e loja de informática que possui venda de equipamentos de informática,
 					computadores e suprimentos, manutenção de equipamentos de informática, montagem e configuração de redes de computadores.
-					
 					É uma empresa voltada ao desenvolvimento tecnológico na área da comunicação. Iniciou suas atividades em Cerro Grande/RS com com a venda de pacotes de internet via rádio, e percebendo a necessidade de um atendimento especializado na área de tecnologia da informação
 					passou a fornecer além do serviço de provedor, também serviços de informática em geral. Atendendo com profissionalismo as exigências do mercado e dos clientes, a CWX Telecom tem se destacado no ramo de telecomunicações e tecnologia da informação, pois proporciona aos 
 					seus clientes solução completa, desde a comercialização de equipamentos de informática até a prestação de serviços em comunicação.
 				</p>
 				</div>
 			  </div>
-			  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-				<div class="texto">
+			  <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+				<div class="texto2">
 				<p align="justify">
 					Atender com agilidade e profissionalismo as exigências dos clientes e do mercado, oferecendo as melhores soluções em produtos e serviços através de tecnologia de alto nível.
-				<p>
-				<center><img src="imagens/missao.png"></center>
+				</p>
 				</div>
+				<img src="imagens/missao.png">
 			  </div>
-			  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-				<div class="texto">
+			  <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+				<img src="imagens/visao.jpg">
+				<div class="texto3">
 				<p align="justify">
 					Maximizar os resultados de nossos clientes através de soluções completas no ramo de tecnologia da informação, contribuindo assim com o desenvolvimento 
 					tecnológico da região, sendo uma empresa referência em telecomunicações.
 				<p>
-				<img src="imagens/visao.jpg">
 				</div>
 			  </div>
-			  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-				<div class="texto">
+			  <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+				<div class="texto4">
 				<p align="justify">
 					Ética, profissionalismo, respeito, credibilidade, inovação e criatividade são princípios norteadores do nosso trabalho.
 				<p>
 				</div>
+				<img src="imagens/valores.png">
+			  </div>
 			</div>
-		
-		
+			
 		</div>
+		
+		<br>
+		
+		<center><h1 id="pep"> Planos e Produtos </h1></center>
+		<div class="container">
+			<div id="list-example" class="list-group">
+			  <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+			  <a class="list-group-item list-group-item-action" href="#list-item-2">Item2</a>
+			  <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+			  <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+			</div>
+			<div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+			  <p id="list-item-1">TESTE</p>
+			  <h4 id="list-item-2">Item 2</h4>
+			  <p>...</p>
+			  <h4 id="list-item-3">Item 3</h4>
+			  <p>...</p>
+			  <h4 id="list-item-4">Item 4</h4>
+			  <p>...</p>
+			</div>
+		</div>	
 			
-			
+	
 	</body>
 </html>
