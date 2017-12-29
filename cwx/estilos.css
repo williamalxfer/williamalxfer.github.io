@@ -26,6 +26,13 @@ color: ;
 	margin-top: 50px;
 }
 
+.imagem4 {
+	display: table-cell;
+	float: right;
+	margin-right: 30px;
+	margin-top: 40px;
+}
+
 .texto {
 	display: table-cell;
 	float: right;
@@ -66,6 +73,36 @@ color: ;
 	font-size: 15px;
 }
 
+.texto5 {
+	display: table-cell;
+	float: left;
+	width: 700px;
+	margin-top: 40px;
+	margin-left: 30px;
+	font-family: Abel;
+	font-size: 15px;
+}
+
+.galeriafoto01 {
+	display: table-cell;
+	float: left;
+	margin-left: 20px;
+}
+
+.fundogaleria {
+	background-color: #C0C0C0;
+}
+
+.fundopep {
+	background-color:;
+}
+
+.fundocobertura {
+	background-color: #C0D9D9;
+}
+
+
+
 
 #empresa {
 	background: #00CC00;
@@ -79,11 +116,35 @@ color: ;
 	padding: 20px
 }
 
+#cobertura {
+	background: #00CC00;
+	color: #FFF;
+	padding: 20px
+}
 
+#galeria {
+	background: #00CC00;
+	color: #FFF;
+	padding: 20px
+}
 
+#transmissoes {
+	background: #999999;
+	color: #FFF;
+	padding: 10px
+}
 
+#instalacoes {
+	background: #999999;
+	color: #FFF;
+	padding: 10px
+}
 
-
+#conosco {
+	background: #00CC00;
+	color: #FFF;
+	padding: 20px
+}
 
 
 
