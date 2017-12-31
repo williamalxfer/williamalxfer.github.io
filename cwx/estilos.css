@@ -81,6 +81,7 @@ color: ;
 	margin-left: 30px;
 	font-family: Abel;
 	font-size: 15px;
+	color: white;
 }
 
 .galeriafoto01 {
@@ -89,59 +90,77 @@ color: ;
 	margin-left: 20px;
 }
 
-.fundogaleria {
-	background-color: #C0C0C0;
+.fundogaleriaresidencia {
+	background-image:url(imagens/instalações/fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	color: white;
+}
+
+.fundogaleriatransmissao {
+	background-image:url(imagens/transmissões/fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	color: white;
 }
 
 .fundopep {
-	background-color:;
+	background-image:url(imagens/pep/fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
 }
 
 .fundocobertura {
-	background-color: #C0D9D9;
+	background-image:url(imagens/cobertura/fundo4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	/*width:100%;
+	height:992px;*/
 }
 
 
-
-
 #empresa {
-	background: #00CC00;
+	background: #006600;
 	color: #FFF;
 	padding: 20px
 }
 
 #pep {
-	background: #00CC00;
+	background: #006600;
 	color: #FFF;
 	padding: 20px
 }
 
 #cobertura {
-	background: #00CC00;
+	background: #006600;
 	color: #FFF;
 	padding: 20px
 }
 
 #galeria {
-	background: #00CC00;
+	background: #006600;
 	color: #FFF;
 	padding: 20px
 }
 
 #transmissoes {
-	background: #999999;
-	color: #FFF;
+	background: #009900;
+	color: black;
 	padding: 10px
 }
 
 #instalacoes {
-	background: #999999;
-	color: #FFF;
+	background: #009900;
+	color: black;
 	padding: 10px
 }
 
 #conosco {
-	background: #00CC00;
+	background: #006600;
 	color: #FFF;
 	padding: 20px
 }
