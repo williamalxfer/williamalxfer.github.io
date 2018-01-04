@@ -121,24 +121,18 @@ color: ;
 	text-align: center;
 }
 
-
-
-.galeriafoto01 {
-	display: table-cell;
-	margin-top: 20px;
+.coluna1 {
 	float: left;
-	margin-left: 20px;
+	margin: 20px;
 }
 
-.galeriafoto02 {
-	display: table-cell;
-	margin-top: 20px;
+.coluna2 {
 	float: right;
-	margin-right: 20px;
+	margin: 20px;
 }
 
 .fundogaleriaresidencia {
-	background-image:url(imagens/instalações/fundo.jpg);
+	background-image:url(imagens/instalações/fundo8.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-attachment: fixed;
@@ -154,10 +148,9 @@ color: ;
 }
 
 .fundopep {
-	background-image:url(imagens/pep/fundo.jpg);
+	background-image:url(imagens/pep/fundo4.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-attachment: fixed;
 }
 
 .fundocobertura {
@@ -181,49 +174,65 @@ color: ;
 	background-size: 100%;
 }
 
-
+.linkpep {
+	font-family: Abel;
+	font-size: 35px;
+	color: #3333FF;
+}
 
 
 #empresa {
 	background: #006600;
 	color: #FFF;
-	padding: 20px
+	padding: 15px
 }
 
 #pep {
 	background: #006600;
 	color: #FFF;
-	padding: 20px
+	padding: 15px
+}
+
+#planosresidencial {
+	background: #990000;
+	color: white;
+	padding: 15px
+}
+
+#planosempresa {
+	background: #990000;
+	color: white;
+	padding: 15px
 }
 
 #cobertura {
 	background: #006600;
 	color: #FFF;
-	padding: 20px
+	padding: 15px
 }
 
 #galeria {
 	background: #006600;
 	color: #FFF;
-	padding: 20px
+	padding: 15px
 }
 
 #transmissoes {
 	background: #009900;
-	color: black;
-	padding: 10px
+	color: #CCCCCC;
+	padding: 8px
 }
 
 #instalacoes {
 	background: #009900;
-	color: black;
-	padding: 10px
+	color: #CCCCCC;
+	padding: 8px
 }
 
 #conosco {
 	background: #006600;
 	color: #FFF;
-	padding: 20px
+	padding: 15px
 }
 
 
