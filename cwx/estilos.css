@@ -153,6 +153,13 @@ color: ;
 	background-size: 100%;
 }
 
+.fundoplanoresidencia {
+	background-image:url(imagens/pep/fundo2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
 .fundocobertura {
 	background-image:url(imagens/cobertura/fundo4.jpg);
 	background-repeat: no-repeat;
@@ -200,6 +207,12 @@ color: ;
 }
 
 #planosempresa {
+	background: #990000;
+	color: white;
+	padding: 15px
+}
+
+#planosfibra {
 	background: #990000;
 	color: white;
 	padding: 15px
